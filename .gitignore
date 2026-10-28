@@ -6,3 +6,22 @@
 **.pptx
 **/dev
 **/not_used
+
+# Downloaded CIFAR data and generated features
+/04_Visualization/datasets/cifar-10-batches-py/
+/04_Visualization/datasets/cifar-10-python.tar.gz
+/04_Visualization/datasets/cifar.pt
+/04_Visualization/datasets/cifar_50000_inception_feat.pkl
+/04_Visualization/mosaic_cifar_*.pdf
+
+# Generated Cora embeddings and retrieval caches
+/08_LLMs_GNNs/dataset/cora/bridge_*.pt
+/08_LLMs_GNNs/dataset/cora/cora_HuggingFaceTB__*.pt
+/08_LLMs_GNNs/dataset/cora/vector_store_*.pt
+
+# Locally compiled benchmark and generated graph files
+/02_Graph_Science/LFR/benchmark
+/02_Graph_Science/community.dat
+/02_Graph_Science/network.dat
+/02_Graph_Science/statistics.dat
+/02_Graph_Science/time_seed.dat
